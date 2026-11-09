@@ -1,0 +1,45 @@
+1. main.py: Arquivo principal para iniciar o servidor e carregar as rotas.
+
+2. routes/:
+
+Arquivos que definem as rotas/endpoints da API.
+
+Exemplos:
+
+predict.py: Rota para lidar com previsões.
+
+healthcheck.py: Rota para verificar o status do servidor.
+
+
+
+3. utils/:
+
+Funções utilitárias usadas em vários locais do backend.
+
+Exemplos:
+
+helpers.py: Funções como formatação de logs ou manipulação de arquivos.
+
+config.py: Configurações globais, como URLs ou variáveis de ambiente.
+
+4. data/
+Contém arquivos estáticos ou de demonstração para o backend.
+
+Exemplos:
+
+Arquivos .csv ou .arff usados em testes ou demonstrações.
+
+5. model/
+Armazena os modelos de IA salvos.
+
+Exemplos:
+
+stacking_model.pkl: Arquivo do modelo treinado.
+
+label_encoder.pkl: Arquivo do codificador de rótulos (se usado).
+
+Essa pasta facilita o versionamento e o carregamento de modelos.
+
+6. modelLogic/
+
+Guarda a lógica por trás dos modelos IA e os códigos que vão devolver as predições/resultados (talvez temporário)
