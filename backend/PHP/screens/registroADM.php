@@ -24,7 +24,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
        exit();
     }
 
-    if ($passwordcon != $password) {
+    if ($passwordcon !== $password) {
         echo "Senhas não coincidem.";
         exit();
     }
