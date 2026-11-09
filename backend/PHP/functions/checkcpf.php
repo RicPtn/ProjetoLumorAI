@@ -16,7 +16,7 @@ function checkCpf($cpf) {
 function validaCPF($cpf) {
     $cpf = preg_replace('/[^0-9]/is', '', $cpf);
 
-    if (strlen($cpf) != 11){
+    if (strlen($cpf) !== 11){
         return false;
     }
 
